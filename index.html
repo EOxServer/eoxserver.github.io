@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>EOxServer</title>
 
     <!-- Bootstrap -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,8 +21,37 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <nav class="navbar navbar-static-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="//eoxserver.org" style="font-size: 160%">EOxServer</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="//eoxserver.readthedocs.org/en/latest/"><i class="fa fa-fw fa-book"></i> Documentation</a></li>
+            <!--<li><a href="//tripleyourtrip.com/blog.html"><i class="fa fa-fw fa-pencil"></i> Blog</a></li>-->
+            <li>
+                <a href="//github.com/EOxServer/eoxserver" target="_blank" style="display: inline-block; padding-right: 0;"><i class="fa fa-fw fa-github-square"></i> Code</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+      
+        <h1>EOxServer</h1>
+        <p>EOxServer is a Python application and framework for presenting Earth Observation (EO) data and metadata.</p>
+        <p>EOxServer implements the OGC Implementation Specifications EO-WCS and EO-WMS on top of MapServer's WCS and WMS implementations.</p>
+        <p>EOxServer is released under the EOxServer Open License a MIT-style license and written in Python and entirely based on Open Source software including MapServer, Django/GeoDjango, GDAL, SpatiaLite, or PostGIS, and PROJ.4.</p>
+        <p><a class="btn btn-primary btn-lg" href="//eoxserver.readthedocs.org/en/latest/" role="button" target="_blank">Learn more</a></p>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
