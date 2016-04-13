@@ -1,4 +1,3 @@
-eoxserver.github.io
-===================
+# eoxserver.github.io
 
-Github pages repository for EOxServer
+Github pages repository for [EOxServer](https://eoxserver.org)
